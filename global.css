@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --paragraph: Raleway;
+  --h4: "Cormorant Garamond";
+  --font-times-new-roman: "Times New Roman";
+
+  /* font sizes */
+  --paragraph-size: 18px;
+  --font-size-mini-5: 14.5px;
+  --h4-size: 36px;
+  --font-size-mid-7: 17.7px;
+  --font-size-16xl-4: 35.4px;
+  --font-size-mid-9: 17.9px;
+  --font-size-52xl-4: 71.4px;
+  --font-size-40xl: 59px;
+
+  /* Colors */
+  --color-lavender: #efdffa;
+  --color-black: #000;
+  --color-mediumpurple-100: #a07acc;
+  --color-gray: #181818;
+
+  /* Gaps */
+  --gap-smi-1: 12.1px;
+
+  /* Paddings */
+  --padding-smi: 13px;
+  --padding-7xl: 26px;
+}
