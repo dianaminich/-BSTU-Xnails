@@ -2084,7 +2084,7 @@
     left: 344.39px;
     width: 150.39px;
     height: 187.99px;
-    background-image: url(./public/2779414997073501704083511278373779880620369n1@3x.png);
+    background-image: url(./assets/document_5447588590982802457.mp4);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -2682,7 +2682,7 @@
     left: 131px;
     width: 16.34px;
     height: 17.97px;
-    background-image: url(./public/-11@3x.png);
+    background-image: url(./assets/png/фигма.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -2698,7 +2698,7 @@
     left: 159px;
     width: 18.86px;
     height: 17.97px;
-    background-image: url(./public/-12@3x.png);
+    background-image: url(./assets/png/-12@3x.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -2720,6 +2720,7 @@
     color: var(--color-black);
     font-family: var(--button);
   }
+  
   
   }@media screen and (max-width: 320px) {
     .ellipse-l-icon {
