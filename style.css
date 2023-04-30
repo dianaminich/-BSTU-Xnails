@@ -1,5 +1,4 @@
-@media screen and (max-width: 1024px) {
-    .logo-icon {
+.logo-icon {
     position: absolute;
     height: 50%;
     width: 16.21%;
@@ -1364,7 +1363,7 @@
     color: var(--color-black);
     font-family: var(--paragraph);
   }
-  }@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .logo-icon {
     position: absolute;
     height: 50%;
