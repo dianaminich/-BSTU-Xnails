@@ -2816,11 +2816,10 @@
     }
     .div34 {
       position: relative;
-      font-size: var(--h3-mob1-size);
-      text-transform: uppercase;
-      font-family: var(--paragraph-mob);
-      color: var(--color-black);
-      text-align: center;
+    font-size: 13.47px;
+    text-transform: uppercase;
+    font-family: var(--button);
+    text-align: left;
     }
     .button1,
     .button2 {
@@ -3006,8 +3005,6 @@
     .button3 {
       display: flex;
       flex-direction: row;
-    }
-    .button3 {
       cursor: pointer;
       border: 1px solid var(--color-black);
       padding: var(--padding-3xs) var(--padding-xl);
@@ -3017,14 +3014,14 @@
       height: 43px;
       align-items: center;
       justify-content: center;
+        position: absolute;
+        top: 395px;
+        left: 62px;
+        align-items: flex-start;
+        justify-content: flex-start;
+      
     }
-    .button3 {
-      position: absolute;
-      top: 395px;
-      left: 62px;
-      align-items: flex-start;
-      justify-content: flex-start;
-    }
+   
     .div28 {
       position: absolute;
       top: 25px;
@@ -3296,8 +3293,8 @@
       width: 138px;
       height: 184px;
     }
-    .n-1-icon4{top: 268px;
-      left: 168px;
+    .n-1-icon4{top: 186px;
+      left: 118px;
       border-radius: var(--br-50xl);
       object-fit: cover;
     }
@@ -3325,8 +3322,8 @@
       height: 91px;
       object-fit: cover;
     }
-    .n-1-icon5{top: 69px;
-      left: 15px;
+    .n-1-icon5{top: -14px;
+      left: -32px;
       border-radius: var(--br-50xl);
       width: 138px;
       height: 184px;
@@ -3337,7 +3334,7 @@
       top: 25px;
       left: 104px;
       font-size: var(--h2-mob-size);
-      text-align: left;
+      text-align: center;
     }
     .div36 {
       top: 1236px;
@@ -3369,7 +3366,7 @@
     padding: 0;
     background-color: transparent;
     position: absolute;
-    top: 408px;
+    top: 379px;
     left: 194px;
     font-size: var(--paragraph-mob-size);
     text-decoration: underline;
@@ -3381,7 +3378,7 @@
     }
     .button4 {
       position: absolute;
-    top: 396px;
+    top: 360px;
     left: 51px;
     display: flex;
     flex-direction: row;
@@ -3390,7 +3387,7 @@
     }
     .div41{
       position: absolute;
-      top: 264px;
+      top: 204px;
       left: 1px;
       line-height: 130%;
       font-weight: 300;
@@ -3506,10 +3503,7 @@
       left: 40px;
       font-size: var(--h2-mob-size);
     }
-    .i {
-      font-weight: 300; font-size: 24px;
-    }
-    .i3 {
+    .i,.i3,.span {
       font-weight: 300; font-size: 24px;
     }
     .div47,
@@ -3517,9 +3511,9 @@
       position: absolute;
     }
     .div47 {
-      top: 26px;
-      left: 15px;
-      font-size: var(--h2-mob-size);
+      top: 151px;
+      left: 46px;
+      font-size: var(--font-size-sm-3);
       display: inline-block;
       width: 172px;
       height: 54px;
@@ -3544,7 +3538,7 @@
     .button7{
       position: absolute;
       top: 320px;
-      left: 62px;
+      left: 97px;
       display: flex;
       flex-direction: row;
       align-items: flex-start;
@@ -3559,7 +3553,7 @@
     }
     .xnails-container {
       position: absolute;
-      top: 103px;
+      top: 106px;
       left: 15px;
       line-height: 150%;
       font-weight: 300;
@@ -3570,20 +3564,20 @@
     }
     .xnails-center-child {
       position: absolute;
-      top: 23px;
-      left: -1px;
+      top: -43px;
+      left: -30px;
       border-top: 2px solid #9da57c;
       box-sizing: border-box;
       width: 97px;
       height: 2px;
     }
-    .xnails-center {
+    .xnails-center { position: relative;
       width: 95px;
-      height: 24px;
+      height: 24px;top: -30px;left: -28px;
     }
-    .xnails-center,
     .xnails1 {
-      position: relative;
+      position: relative;width: 95px;
+      height: 24px;top: -30px;left: -11px;
     }
     .div49 {
       position: absolute;
@@ -3619,10 +3613,8 @@
     .fluentmail-48-regular {
       text-decoration: none;
       position: absolute;
-      top: -1px;
+      top: 72px;
       left: 108px;
-      border: 3px solid #fffaf3;
-      box-sizing: border-box;
       width: 33px;
       height: 26px;
       overflow: hidden;
@@ -3644,7 +3636,7 @@
     }
     .phinstagram-logo-light {
       text-decoration: none;
-      top: 1px;
+      top: 72px; left: 9px;
       width: 20px;
       height: 20px;
     }
@@ -3659,7 +3651,7 @@
     .iconoirfacebook,
     .simple-line-iconssocial-vkont {
       position: absolute;
-      overflow: hidden;
+      overflow: hidden; top: 72px;
     }
     .group-icon1 {
       height: 87.68%;
@@ -3680,7 +3672,7 @@
     }
     .fluentmail-48-regular-parent {
       position: absolute;
-      top: 79px;
+      top: 72px;
       left: 68px;
       width: 138px;
       height: 23px;
@@ -3693,8 +3685,8 @@
     .frame-div,
     .parent1 {
       position: absolute;
-      top: 0;
-      left: 0;
+      top: 105px;
+      left: 75px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -3702,15 +3694,15 @@
       gap: var(--gap-mini);
     }
     .frame-div {
-      left: 123px;
+      left: 177px;
     }
     
     .div59 {
       position: absolute;
-      top: 218px;
-      left: 34px;
+      top: 221px;
+      left: 24px;
       font-size: var(--h3-mob-size);
-      font-family: var(--h3-mob);
+      font-family: var(--h3-mob); width: 266px;
     }
     .input-child {
       position: absolute;
@@ -3754,7 +3746,7 @@
     }
     .xnails-2022 {
       position: absolute;
-      top: 371px;
+      top: 345px;
       left: 17px;
       line-height: 130%;
       font-weight: 300;
@@ -3797,12 +3789,12 @@
     }
     .confidence {
       position: absolute;
-      top: 310px;
-      left: 14px;
-      width: 215px;
-      height: 41px;
-      font-size: 12px;
-    }
+    top: 298px;
+    left: 14px;
+    width: 318px;
+    height: 41px;
+    font-size: 12px;
+}
     .logo-icon1 {
       position: absolute;
       width: 43.75%;
@@ -3813,22 +3805,28 @@
       overflow: hidden;
       height: 39px;
     }
-    .div61,
-    .email-elb00315gbstuby {
+    .div61 {
       position: absolute;
       top: 3530px;
-      left: 26px;
+      left: 42px;
       font-size: 11.3px;
       line-height: 150%; 
       font-weight: 300;
     }
-    
+    .email-elb00315gbstuby {
+      position: absolute;
+      top: 3530px;
+      left: 79px;
+      font-size: 11.3px;
+      line-height: 150%; 
+      font-weight: 300;
+    }
     .a,
     .a1 {
       text-decoration: none;
       position: absolute;
-      top: 80px;
-      left: 226px;
+      top: 3396px;
+      left: 195px;
       width: 20px;
       height: 22px;
       background-image: url(./assets/png/фигма.PNG);
@@ -3837,7 +3835,7 @@
       background-position: top;
     }
     .a1 {
-      left: 264px;
+      left: 231px;
       width: 23.09px;
       background-image: url(./assets/png/-12@3x.png);
     }
@@ -3880,11 +3878,38 @@
     width: 735.74px;
     height: 202.11px;
 }    
-.frame-child, .frame-item {
+.frame-child {
   position: absolute;
-top: 248.37px;
-left: 655.94px;
+top: 239.37px;
+left: 292.94px;
 width: 14.67px;
 height: 28.6px;
 }
-  }
+
+.frame-item{
+  position: absolute;
+top: 239.37px;
+left: -9px;
+width: 14.67px;
+height: 28.6px;
+}
+.starsdate {
+  top: -10.75px;
+  left: 4.5px;
+  width: 186.5px;
+  height: 20px;
+}
+.div43 {
+  top: -14px;
+  left: 11px;
+  font-size: 24px;
+  font-family: var(--font-cormorant-garamond);
+}
+.container {
+  top: -6.25px;
+  left: -3px;
+  width: 316px;
+  height: 75px;
+  font-size: var(--font-size-2xs-2);
+}
+}
