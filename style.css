@@ -2712,13 +2712,27 @@
   
   
   
-  }@media screen and (max-width: 320px) {
-    .ellipse-l-icon {
+  }
+  @media screen and (max-width: 320px) {
+    .ellipse-l-icon,
+    .logo-icon {
       position: absolute;
       top: 11px;
       left: 0;
       width: 180px;
       height: 260px;
+    }
+    .logo-icon {
+      height: 5.69%;
+      width: 30%;
+      top: 4.36%;
+      right: 4.69%;
+      bottom: 89.95%;
+      left: 65.31%;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+      object-fit: cover;
     }
     .burger-child,
     .burger-inner,
@@ -2738,57 +2752,59 @@
     .burger-inner {
       top: 15px;
     }
-    .burger,
-    .logo-icon {
-      position: relative;
-      flex-shrink: 0;
-    }
     .burger {
       cursor: pointer;
       border: 0;
       padding: 0;
       background-color: transparent;
+      position: relative;
       width: 23px;
       height: 16px;
-    }
-    .logo-icon {
-      width: 96px;
-      height: 26.11px;
-      object-fit: cover;
     }
     .menu {
       position: absolute;
       top: 20px;
       left: calc(50% - 145px);
-      width: 290px;
+      width: 47px;
       display: flex;
       flex-direction: row;
       align-items: center;
       justify-content: space-between;
     }
-    .div9,
     .div10,
     .xnails- {
-      position: absolute;
-      left: 15px;
+      display: inline-block;
     }
     .xnails- {
+      position: absolute;
       top: 86px;
-      font-size: var(--paragraph-mob-size);
+      left: 15px;
       line-height: 130%;
-      font-family: var(--font-times-new-roman);
-      display: inline-block;
       width: 172px;
     }
-    .div9,
     .div10 {
-      top: 137px;
+      top: 27px;
+      left: 0;
+      font-weight: 300;
+      width: 265.32px;
+    }
+    .div10,
+    .div9,
+    .title {
+      position: absolute;
+    }
+    .div9 {
+      top: 0;
+      left: 0;
       font-weight: 300;
     }
-    .div10 {
-      top: 164px;
-      display: inline-block;
-      width: 265.32px;
+    .title {
+      top: 137px;
+      left: 15px;
+      width: 283px;
+      height: 81px;
+      font-size: var(--font-size-4xl);
+      font-family: var(--paragraph-mob);
     }
     .main-foto-1 {
       position: absolute;
@@ -2798,7 +2814,7 @@
       height: 141px;
       object-fit: cover;
     }
-    .div7 {
+    .div34 {
       position: relative;
       font-size: var(--h3-mob1-size);
       text-transform: uppercase;
@@ -2826,7 +2842,7 @@
       justify-content: center;
     }
     .button1:hover,
-    .wrapper:hover {
+    .button3:hover {
       background-color: var(--color-mediumpurple);
     }
     .button2 {
@@ -2849,8 +2865,8 @@
       width: 320px;
       height: 459px;
       overflow: hidden;
-      font-size: var(--font-size-4xl);
       color: var(--color-gray);
+      font-family: var(--font-times-new-roman);
     }
     .div1,
     .div15,
@@ -2876,7 +2892,6 @@
       position: relative;
       width: 132.2px;
       height: 74.15px;
-      flex-shrink: 0;
       text-align: center;
       font-size: 12.45px;
       font-family: var(--paragraph-mob);
@@ -2904,7 +2919,6 @@
     .div12 {
       position: relative;
       height: 74.15px;
-      flex-shrink: 0;
     }
     .div18 {
       position: absolute;
@@ -2928,7 +2942,6 @@
       position: relative;
       width: 129px;
       height: 74.15px;
-      flex-shrink: 0;
     }
     .group {
       position: absolute;
@@ -2940,26 +2953,33 @@
       justify-content: flex-start;
       gap: 14.37px;
     }
-    .n-1-icon1,
+    .n-1-icon,
     .n-1-icon2,
-    .n-1-icon {
+    .n-1-icon1 {
       position: absolute;
-      top: 108px;
-      left: 56px;
+      top: 0;
+      left: 0;
       width: 75px;
       height: 75px;
       object-fit: cover;
     }
     .n-1-icon2,
-    .n-1-icon {
-      top: 195px;
+    .n-1-icon1 {
+      top: 179px;
+      left: 1px;
     }
-    .n-1-icon {
+    .n-1-icon1 {
+      top: 92px;
+    }
+    .desktop-3,
+    .n-1-parent {
+      position: absolute;
       top: 16px;
       left: 55px;
+      width: 76px;
+      height: 254px;
     }
-    .desktop-3{
-      position: absolute;
+    .desktop-3 {
       top: 459px;
       left: 0;
       background-color: var(--color-lavender);
@@ -2968,17 +2988,16 @@
       overflow: hidden;
       font-size: 22.99px;
       color: var(--color-gray);
-      font-family: var(--h3-mob);
     }
-    .services-child,
-    .services-item {
+    .ellipse-r-icon,
+    .inner {
       position: absolute;
       top: 58px;
       left: 0;
       width: 145px;
       height: 145px;
     }
-    .services-item {
+    .inner {
       top: 159px;
       left: 137px;
       width: 183px;
@@ -2987,6 +3006,8 @@
     .button3 {
       display: flex;
       flex-direction: row;
+    }
+    .button3 {
       cursor: pointer;
       border: 1px solid var(--color-black);
       padding: var(--padding-3xs) var(--padding-xl);
@@ -2994,9 +3015,10 @@
       box-sizing: border-box;
       width: 195px;
       height: 43px;
-      flex-shrink: 0;
       align-items: center;
       justify-content: center;
+    }
+    .button3 {
       position: absolute;
       top: 395px;
       left: 62px;
@@ -3015,14 +3037,14 @@
       top: 0;
       left: 0;
     }
-    .div32{
+    .div32 {
       top: 71px;
       left: 5px;
       width: 66px;
       height: 20px;
       font-size: 16.76px;
     }
-    .xnails {
+    .div5 {
       left: 0;
       line-height: 150%;
       font-weight: 300;
@@ -3060,7 +3082,7 @@
     .line6 {
       position: absolute;
     }
-    .byn3{
+    .byn3 {
       width: calc(100% - 255.5px);
       top: 0;
       left: 255.5px;
@@ -3101,7 +3123,7 @@
       height: 12.03px;
     }
     .div27,
-    .line4,
+    .line7,
     .prices2 {
       position: absolute;
     }
@@ -3163,15 +3185,13 @@
     }
     .byn70-byn,
     .div26 {
-      line-height: 150%;
-      font-weight: 300;
-      display: inline-block;
-    }
-    .div26 {
       position: absolute;
       width: calc(100% - 101.42px);
       top: 0;
       left: 0;
+      line-height: 150%;
+      font-weight: 300;
+      display: inline-block;
       height: 12.03px;
     }
     .byn70-byn {
@@ -3179,11 +3199,6 @@
       top: 0.03px;
       left: 218px;
       height: 12px;
-    }
-    .byn70-byn,
-    .div23,
-    .prices1 {
-      position: absolute;
     }
     .prices1 {
       width: calc(100% - 11px);
@@ -3193,41 +3208,43 @@
       height: 45px;
       font-family: var(--paragraph-mob);
     }
+    .byn,
+    .div23,
+    .prices1 {
+      position: absolute;
+    }
     .div23 {
       top: 258px;
       left: 5px;
       font-size: 17.52px;
     }
-    .byn,
-    .line {
-      position: absolute;
-      top: 0;
-    }
     .byn {
+      top: 0;
       left: 261px;
       line-height: 150%;
       font-weight: 300;
       display: inline-block;
       width: 43px;
     }
+    .byn1,
+    .div22,
     .line {
-      width: calc(100% - 15.07px);
-      right: 15.07px;
+      position: absolute;
       left: 0;
       height: 18.53px;
+    }
+    .line {
+      width: calc(100% - 15.07px);
+      top: 0;
+      right: 15.07px;
     }
     .byn1,
     .div22 {
+      width: calc(100% - 57.79px);
+      top: 0.47px;
       line-height: 150%;
       font-weight: 300;
       display: inline-block;
-    }
-    .div22 {
-      position: absolute;
-      width: calc(100% - 57.79px);
-      top: 0.47px;
-      left: 0;
-      height: 18.53px;
     }
     .byn1 {
       width: calc(100% - 261px);
@@ -3235,17 +3252,17 @@
       left: 261px;
       height: 19px;
     }
-    .byn1,
-    .line1,
-    .prices {
-      position: absolute;
-    }
     .line1 {
       width: 100%;
       top: 25px;
       right: 0;
       left: 0;
       height: 19px;
+    }
+    .div20,
+    .line1,
+    .prices {
+      position: absolute;
     }
     .prices {
       width: calc(100% - 17px);
@@ -3256,8 +3273,7 @@
       font-size: 9.04px;
       font-family: var(--paragraph-mob);
     }
-    .div20{
-      position: absolute;
+    .div20 {
       top: 773px;
       left: 0;
       background-color: var(--color-lavender);
@@ -3265,7 +3281,6 @@
       height: 463px;
       overflow: hidden;
       font-size: 8.99px;
-      font-family: var(--h3-mob);
     }
     .pagin-icon {
       position: absolute;
@@ -3275,7 +3290,7 @@
       height: 8.39px;
     }
     .n-1,
-    .n-1-icon4 {
+    .n-1-icon4{
       position: absolute;
       top: 268px;
       width: 138px;
@@ -3288,7 +3303,7 @@
     }
     .n-1 {
       left: 15px;
-      background-image: url(./assets/document_5447588590982802457.mp4);
+      background-image: url(assets/document_5447588590982802457.mp4);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: top;
@@ -3301,7 +3316,7 @@
       width: 120px;
     }
     .n-1-icon3,
-    .n-1-icon5{
+    .n-1-icon5 {
       position: absolute;
       top: 69px;
       left: 168px;
@@ -3310,7 +3325,7 @@
       height: 91px;
       object-fit: cover;
     }
-    .n-1-icon5 {
+    .n-1-icon5{
       left: 15px;
       border-radius: var(--br-50xl);
       width: 138px;
@@ -3333,17 +3348,16 @@
       overflow: hidden;
       text-align: center;
       font-size: var(--h3-mob1-size);
-      font-family: var(--h3-mob);
     }
-    .ellipse-icon {
+    .ellipse-icon,
+    .foto-1-icon{
       position: absolute;
       top: 78px;
       left: 21px;
       width: 186px;
       height: 186px;
     }
-    .sertificate-item {
-      position: absolute;
+    .foto-1-icon {
       top: 90px;
       left: 140px;
       width: 180px;
@@ -3365,7 +3379,7 @@
       text-align: left;
       display: inline-block;
     }
-    .button-child {
+    .button4 {
       position: absolute;
       top: 430px;
       left: 63px;
@@ -3374,7 +3388,8 @@
       align-items: flex-start;
       justify-content: flex-start;
     }
-    .div41 {
+    .div41{
+      position: absolute;
       top: 264px;
       left: 15px;
       line-height: 130%;
@@ -3383,11 +3398,6 @@
       display: inline-block;
       width: 290px;
     }
-    .div41,
-    .div39,
-    .foto-1-icon {
-      position: absolute;
-    }
     .div39 {
       top: 220px;
       left: 40px;
@@ -3395,15 +3405,12 @@
       font-family: var(--h3-mob);
       text-align: left;
     }
-    .foto-1-icon {
-      top: 22px;
-      left: 90px;
-      width: 138px;
-      height: 179px;
-      object-fit: cover;
-    }
-    .div38{
+    .div39,
+    .div38 {
       position: absolute;
+    }
+    
+    .div38 {
       top: 1737px;
       left: 0;
       background-color: var(--color-lavender);
@@ -3411,6 +3418,7 @@
       height: 528px;
       overflow: hidden;
       text-align: center;
+      font-family: var(--paragraph-mob);
     }
     .n-1-icon6 {
       position: absolute;
@@ -3428,9 +3436,9 @@
       width: 290.34px;
       height: 18.66px;
     }
-
+    
     .div46,
-    .div4r4 {
+    .div44 {
       position: absolute;
       line-height: 130%;
       font-weight: 300;
@@ -3502,11 +3510,11 @@
     .i {
       font-weight: 300;
     }
-    .div43,
+    .div47,
     .div42 {
       position: absolute;
     }
-    .div43 {
+    .div47 {
       top: 26px;
       left: 15px;
       font-size: var(--h2-mob-size);
@@ -3521,6 +3529,7 @@
       background-color: var(--color-lavender);
       width: 320px;
       height: 372px;
+      font-family: var(--paragraph-mob);
     }
     .icon {
       position: absolute;
@@ -3530,7 +3539,7 @@
       height: 267px;
       object-fit: cover;
     }
-    .button7 {
+    .button7{
       position: absolute;
       top: 320px;
       left: 62px;
@@ -3569,33 +3578,22 @@
     .xnails-center {
       width: 95px;
       height: 24px;
-      flex-shrink: 0;
     }
     .xnails-center,
     .xnails1 {
       position: relative;
     }
-    .div49,
-    .div48 {
+    .div49 {
       position: absolute;
     }
-    .div48 {
-      top: 69px;
-      left: 15px;
-      width: 290px;
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-      justify-content: space-between;
-      font-size: var(--h3-mob1-size);
-    }
+    
     .div49 {
       top: 25px;
       left: 96px;
       font-size: var(--h2-mob-size);
     }
-    .group-icon,
-    .div48 {
+    .div48,
+    .group-icon {
       position: absolute;
       left: 0;
     }
@@ -3605,7 +3603,6 @@
       width: 320px;
       height: 685px;
       font-size: 13.5px;
-      font-family: var(--h3-mob);
     }
     .group-icon {
       height: 76.92%;
@@ -3705,13 +3702,7 @@
     .frame-div {
       left: 123px;
     }
-    .frame-div {
-      position: absolute;
-      top: 110px;
-      left: 72px;
-      width: 162px;
-      height: 81px;
-    }
+    
     .div59 {
       position: absolute;
       top: 218px;
@@ -3766,7 +3757,7 @@
       line-height: 130%;
       font-weight: 300;
     }
-    .div58 {
+    .instagram2 {
       text-decoration: underline;
     }
     .div60 {
@@ -3810,7 +3801,7 @@
       height: 41px;
       font-size: 12px;
     }
-    .logo-icon1{
+    .logo-icon1 {
       position: absolute;
       width: 43.75%;
       top: 25px;
@@ -3863,14 +3854,15 @@
       left: 0;
       width: 320px;
       height: 413px;
+      font-family: var(--paragraph-mob);
     }
     .div {
-        position: relative;
-        width: 100%;
-        height: 3738px;
-        text-align: left;
-        font-size: var(--paragraph-mob-size);
-        color: var(--color-black);
-        font-family: var(--paragraph-mob);
-      }
+      position: relative;
+      width: 100%;
+      height: 3738px;
+      text-align: left;
+      font-size: var(--paragraph-mob-size);
+      color: var(--color-black);
+      font-family: var(--h3-mob);
+    }
   }
