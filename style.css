@@ -2719,8 +2719,8 @@
       position: absolute;
       top: 11px;
       left: 0;
-      width: 180px;
-      height: 260px;
+      width: 105px;
+      height: 33.11px;
     }
     .logo-icon {
       height: 5.69%;
@@ -2771,6 +2771,12 @@
       align-items: center;
       justify-content: space-between;
     }
+    .div8{
+    top: 12;
+    left: -1.5px;
+    width:497.78px ;
+    height: 500.64px;
+    overflow: hidden;}
     .div10,
     .xnails- {
       display: inline-block;
@@ -2786,6 +2792,7 @@
       top: 27px;
       left: 0;
       font-weight: 300;
+      font-size: 23px;
       width: 265.32px;
     }
     .div10,
@@ -2796,7 +2803,7 @@
     .div9 {
       top: 0;
       left: 0;
-      font-weight: 300;
+      font-weight: 300;font-size: 23px;
     }
     .title {
       top: 137px;
@@ -2811,7 +2818,7 @@
       top: 190px;
       left: 168px;
       width: 137px;
-      height: 141px;
+      height: 153px;
       object-fit: cover;
     }
     .div34 {
