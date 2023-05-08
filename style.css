@@ -1377,13 +1377,13 @@
     max-height: 100%;
     object-fit: cover;
   }
-  .div1,
-  .div4 {
+  .div2,
+  .div5 {
     position: relative;
     line-height: 150%;
     font-weight: 300;
   }
-  .div4 {
+  .div5 {
     position: absolute;
     top: 0;
     left: 0;
@@ -1392,9 +1392,8 @@
     position: relative;
     width: 47px;
     height: 20px;
-    flex-shrink: 0;
   }
-  .div5,
+  .div6,
   .parent {
     position: absolute;
   }
@@ -1409,12 +1408,12 @@
     justify-content: flex-start;
     gap: 33.68px;
   }
-  .div5 {
+  .div6 {
     top: 51.92%;
     left: 62.7%;
     line-height: 150%;
   }
-  .div6 {
+  .div7 {
     position: relative;
     font-size: 13.47px;
     text-transform: uppercase;
@@ -1468,7 +1467,7 @@
     height: 318.88px;
     object-fit: cover;
   }
-  .div7 {
+  .div8 {
     top: 101.05px;
     left: 248.52px;
     box-shadow: 0 2.9941859245300293px 2.99px rgba(0, 0, 0, 0.25);
@@ -1478,7 +1477,7 @@
     height: 444.64px;
     overflow: hidden;
   }
-  .div7,
+  .div8,
   .item,
   .xnails- {
     position: absolute;
@@ -1550,7 +1549,7 @@
   }
   .button1,
   .button2,
-  .div {
+  .div1 {
     position: absolute;
   }
   .button2 {
@@ -1568,7 +1567,7 @@
     text-align: left;
     display: inline-block;
   }
-  .div {
+  .div1 {
     top: 0;
     left: 0;
     background-color: var(--color-lavender);
@@ -1889,7 +1888,7 @@
     width: 75.75px;
   }
   .byn2,
-  .div29,
+  .div30,
   .line5 {
     position: absolute;
   }
@@ -1900,7 +1899,7 @@
     left: 0.74px;
     height: 17.7px;
   }
-  .div29 {
+  .div30 {
     width: calc(100% - 180.67px);
     top: 0.05px;
     left: 0;
@@ -1976,7 +1975,7 @@
     font-size: 26.55px;
     font-family: var(--font-cormorant-garamond);
   }
-  .div11 {
+  .div34 {
     position: relative;
     font-size: 13.27px;
     text-transform: uppercase;
@@ -2084,7 +2083,7 @@
     left: 344.39px;
     width: 150.39px;
     height: 187.99px;
-    background-image: url(./assets/document_5447588590982802457.mp4);
+    background-image: url(./public/2779414997073501704083511278373779880620369n1@3x.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -2194,18 +2193,18 @@
     height: 316.57px;
     object-fit: cover;
   }
-  .child1 {
+  .ellipse-icon {
     top: 122.57px;
     left: 423.35px;
     width: 333.87px;
     height: 333.87px;
   }
   .div38,
-  .button5,
+  .div41,
   .ellipse-icon {
     position: absolute;
   }
-  .button5{
+  .div41 {
     top: 228.59px;
     left: 385px;
     font-size: 13.36px;
@@ -2233,17 +2232,17 @@
   .span {
     font-family: var(--font-cormorant-garamond);
   }
-  .div42,
-  .div43 {
+  .div43,
+  .div44 {
     position: absolute;
   }
-  .div42 {
+  .div43 {
     top: 60px;
     left: 45px;
     font-size: 41.26px;
     font-family: var(--font-cormorant-garamond);
   }
-  .div43 {
+  .div44 {
     top: 0;
     left: 97.5px;
     line-height: 150%;
@@ -2266,17 +2265,17 @@
   .i3 {
     font-weight: 300;
   }
-  .div44,
-  .div45 {
+  .div45,
+  .div46 {
     position: absolute;
   }
-  .div44 {
+  .div45 {
     top: 157.5px;
     left: 178.5px;
     font-size: 41.11px;
     font-family: var(--font-cormorant-garamond);
   }
-  .div45 {
+  .div46 {
     top: 0;
     left: 27px;
     line-height: 150%;
@@ -2299,7 +2298,7 @@
     height: 75px;
     font-size: var(--font-size-2xs-2);
   }
-  .div46 {
+  .div47 {
     position: absolute;
     top: 306px;
     left: 88.5px;
@@ -2348,7 +2347,7 @@
     height: 381px;
     object-fit: cover;
   }
-  .div41 {
+  .div42 {
     top: 2330px;
     left: 0;
     background-color: var(--color-lavender);
@@ -2357,12 +2356,12 @@
     overflow: hidden;
     font-size: var(--font-size-sm-5);
   }
-  .div41,
-  .div48,
+  .div42,
+  .div49,
   .xnails {
     position: absolute;
   }
-  .div48 {
+  .div49 {
     top: 48.75px;
     left: 267px;
     font-size: 43.45px;
@@ -2399,7 +2398,7 @@
     width: 396px;
     height: 390.75px;
   }
-  .div49,
+  .div50,
   .xnails-container {
     font-size: var(--font-size-sm-5);
     font-family: var(--button);
@@ -2413,7 +2412,7 @@
     display: inline-block;
     width: 334.5px;
   }
-  .div49 {
+  .div50 {
     position: relative;
     text-transform: uppercase;
     color: var(--color-black);
@@ -2442,13 +2441,13 @@
     height: 276.15px;
     object-fit: cover;
   }
-  .div47,
+  .div48,
   .group-icon {
     position: absolute;
     left: 0;
     overflow: hidden;
   }
-  .div47 {
+  .div48 {
     top: 2859px;
     background-color: var(--color-lavender);
     width: 768px;
@@ -2548,7 +2547,7 @@
   .xnails-20221 {
     text-transform: uppercase;
   }
-  .div57,
+  .div58,
   .xnails-2022 {
     position: absolute;
     top: 133.69px;
@@ -2556,15 +2555,15 @@
     line-height: 150%;
     font-weight: 300;
   }
-  .div57 {
+  .div58 {
     top: 98.39px;
   }
-  .div58,
+  .div59,
   .input-child {
     position: absolute;
     width: 170.21px;
   }
-  .div58 {
+  .div59 {
     top: 20.22px;
     left: 571.79px;
     font-size: 22.69px;
@@ -2595,7 +2594,7 @@
     width: 28.58px;
     height: 4.64px;
   }
-  .div59,
+  .div60,
   .input,
   .input-item {
     position: absolute;
@@ -2610,7 +2609,7 @@
     width: 170.21px;
     height: 31.52px;
   }
-  .div59 {
+  .div60 {
     top: 3.15px;
     left: 21.43px;
     line-height: 150%;
@@ -2662,7 +2661,7 @@
     overflow: hidden;
     max-height: 100%;
   }
-  .div60,
+  .div61,
   .email-elb00315gbstuby {
     position: absolute;
     top: 92px;
@@ -2682,14 +2681,14 @@
     left: 131px;
     width: 16.34px;
     height: 17.97px;
-    background-image: url(./assets/png/фигма.PNG);
+    background-image: url(./public/-11@3x.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
   }
   .a,
   .a1,
-  .div50 {
+  .div51 {
     position: absolute;
   }
   .a1 {
@@ -2698,12 +2697,12 @@
     left: 159px;
     width: 18.86px;
     height: 17.97px;
-    background-image: url(./assets/png/-12@3x.png);
+    background-image: url(./public/-12@3x.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
   }
-  .div50 {
+  .div51 {
     top: 3403px;
     left: 13px;
     width: 742px;
@@ -2720,6 +2719,7 @@
     color: var(--color-black);
     font-family: var(--button);
   }
+  
   
   
   }@media screen and (max-width: 320px) {
