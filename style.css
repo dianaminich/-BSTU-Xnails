@@ -1496,8 +1496,8 @@
     line-height: 150%;
     font-family: var(--font-times-new-roman);
   }
-  .div8,
-  .div9 {
+  .div9,
+  .div10 {
     position: absolute;
     top: 0;
     left: 0;
@@ -1506,12 +1506,12 @@
     width: 597.34px;
     height: 49.4px;
   }
-  .div9 {
+  .div10 {
     top: 46.41px;
     width: 374.53px;
     height: 102.26px;
   }
-  .div10,
+  .div11,
   .title {
     color: var(--color-black);
   }
@@ -1523,7 +1523,7 @@
     height: 148.67px;
     font-size: 44.16px;
   }
-  .div10 {
+  .div11 {
     position: relative;
     font-size: 13.47px;
     text-transform: uppercase;
@@ -1596,7 +1596,7 @@
   .n-1-icon2 {
     left: 452.5px;
   }
-  .div12,
+  .div13,
   .n-1-parent {
     position: absolute;
     top: 55.53px;
@@ -1604,19 +1604,19 @@
     width: 622.84px;
     height: 171.09px;
   }
-  .div12 {
+  .div13 {
     top: 0;
     left: 0.75px;
     display: inline-block;
     width: 156.26px;
     height: 64.74px;
   }
-  .div11,
-  .div13 {
+  .div12,
+  .div14 {
     position: absolute;
     width: 157.02px;
   }
-  .div13 {
+  .div14 {
     top: 75.99px;
     left: 0;
     font-size: 13.39px;
@@ -1627,16 +1627,16 @@
     display: inline-block;
     height: 40.52px;
   }
-  .div11 {
+  .div12 {
     top: 0;
     left: 213.12px;
     height: 116.52px;
   }
-  .div14,
-  .div15 {
+  .div15,
+  .div16 {
     display: inline-block;
   }
-  .div14 {
+  .div15 {
     position: absolute;
     top: 75.9px;
     left: 0;
@@ -1644,15 +1644,15 @@
     font-weight: 300;
     width: 122.03px;
   }
-  .div15 {
+  .div16 {
     left: 46.88px;
     font-size: 53.57px;
     font-family: var(--font-cormorant-garamond);
     text-align: left;
     width: 27.53px;
   }
-  .div15,
-  .div17,
+  .div16,
+  .div18,
   .years {
     position: absolute;
     top: 0;
@@ -1665,7 +1665,7 @@
     font-size: 13.39px;
     font-family: var(--button);
   }
-  .div17 {
+  .div18 {
     left: 64.73px;
     display: inline-block;
     width: 46.88px;
@@ -1673,12 +1673,12 @@
   .p {
     margin: 0;
   }
-  .div16,
-  .div18 {
+  .div17,
+  .div19 {
     position: absolute;
     width: 176.35px;
   }
-  .div18 {
+  .div19 {
     top: 75.9px;
     left: 0;
     font-size: 13.39px;
@@ -1688,7 +1688,7 @@
     text-align: center;
     display: inline-block;
   }
-  .div16 {
+  .div17 {
     top: 0;
     left: 433.74px;
     height: 115.9px;
@@ -1739,7 +1739,7 @@
     width: 54.75px;
   }
   .byn1,
-  .div21,
+  .div22,
   .line {
     position: absolute;
     top: 0;
@@ -1751,7 +1751,7 @@
     right: 34px;
   }
   .byn1,
-  .div21 {
+  .div22 {
     width: calc(100% - 96.69px);
     line-height: 150%;
     font-weight: 300;
@@ -1770,7 +1770,7 @@
     left: 0;
     height: 17.7px;
   }
-  .div22,
+  .div23,
   .line1,
   .prices {
     position: absolute;
@@ -1782,7 +1782,7 @@
     left: 22.66px;
     height: 42.04px;
   }
-  .div22 {
+  .div23 {
     top: 316px;
     left: 21.19px;
     font-size: 26.55px;
@@ -1806,7 +1806,7 @@
     height: 17.7px;
   }
   .byn60-byn,
-  .div24 {
+  .div25 {
     position: absolute;
     width: calc(100% - 180.67px);
     top: 0;
@@ -1823,7 +1823,7 @@
     height: 17.25px;
   }
   .byn70-byn,
-  .div25,
+  .div26,
   .line3 {
     position: absolute;
     height: 17.77px;
@@ -1835,7 +1835,7 @@
     left: 0.74px;
   }
   .byn70-byn,
-  .div25 {
+  .div26 {
     width: calc(100% - 173.26px);
     top: 0;
     left: 0;
@@ -1857,8 +1857,8 @@
     left: 0;
     height: 18.01px;
   }
-  .div26,
   .div27,
+  .div28,
   .prices1 {
     position: absolute;
     left: 21.19px;
@@ -1869,13 +1869,13 @@
     right: 267px;
     height: 66.7px;
   }
-  .div26,
-  .div27 {
+  .div27,
+  .div28 {
     top: 200.21px;
     font-size: 26.55px;
     font-family: var(--font-cormorant-garamond);
   }
-  .div27 {
+  .div28 {
     top: 21px;
     left: 268.25px;
     font-size: 45.92px;
@@ -1928,7 +1928,7 @@
     right: 0;
     left: 0.74px;
   }
-  .div30 {
+  .div31 {
     width: calc(100% - 192.4px);
     top: 0.02px;
     left: 0;
@@ -1938,7 +1938,7 @@
     height: 17.77px;
   }
   .byn4,
-  .div30,
+  .div31,
   .line7 {
     position: absolute;
   }
@@ -1958,7 +1958,7 @@
     left: 0;
     height: 17.78px;
   }
-  .div31,
+  .div32,
   .prices2 {
     position: absolute;
     left: 21.19px;
@@ -1969,14 +1969,14 @@
     right: 290.25px;
     height: 66.46px;
   }
-  .div31 {
+  .div32 {
     top: 87.37px;
     width: 105px;
     height: 32px;
     font-size: 26.55px;
     font-family: var(--font-cormorant-garamond);
   }
-  .div33 {
+  .div11 {
     position: relative;
     font-size: 13.27px;
     text-transform: uppercase;
@@ -2012,11 +2012,11 @@
     width: 297.28px;
     height: 304.96px;
   }
-  .div19,
-  .div34 {
+  .div20,
+  .div35 {
     position: absolute;
   }
-  .div34 {
+  .div35 {
     width: calc(100% - 195.54px);
     top: 426.75px;
     left: 12px;
@@ -2026,7 +2026,7 @@
     display: inline-block;
     height: 9.75px;
   }
-  .div19 {
+  .div20 {
     top: 969px;
     left: 0;
     background-color: var(--color-lavender);
@@ -2035,7 +2035,7 @@
     overflow: hidden;
     font-size: 13.27px;
   }
-  .div36,
+  .div37,
   .pagin-icon {
     position: absolute;
     top: 16.54px;
@@ -2118,12 +2118,12 @@
     height: 233.11px;
     font-size: 18.82px;
   }
-  .div35,
-  .div38,
+  .div36,
+  .div39,
   .frame-parent {
     position: absolute;
   }
-  .div35 {
+  .div36 {
     top: 1498px;
     left: 0;
     background-color: var(--color-lavender);
@@ -2134,7 +2134,7 @@
     font-size: 48.75px;
     font-family: var(--font-cormorant-garamond);
   }
-  .div38 {
+  .div39 {
     top: 88.73px;
     left: 391.77px;
     display: inline-block;
@@ -2151,7 +2151,7 @@
     border: 0.8px solid var(--color-black);
     box-sizing: border-box;
   }
-  .div39 {
+  .div40 {
     position: absolute;
     top: 29.17%;
     left: 19.41%;
@@ -2194,18 +2194,18 @@
     height: 316.57px;
     object-fit: cover;
   }
-  .ellipse-icon {
+  .child1 {
     top: 122.57px;
     left: 423.35px;
     width: 333.87px;
     height: 333.87px;
   }
-  .div37,
-  .div40,
+  .div38,
+  .button5,
   .ellipse-icon {
     position: absolute;
   }
-  .div40 {
+  .button5{
     top: 228.59px;
     left: 385px;
     font-size: 13.36px;
@@ -2216,7 +2216,7 @@
     display: inline-block;
     width: 371.16px;
   }
-  .div37 {
+  .div38 {
     top: 1800px;
     left: 0;
     background-color: var(--color-lavender);
