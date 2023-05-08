@@ -5,7 +5,7 @@ body {
 
 :root {
   /* fonts */
-  --paragraph: Raleway;
+  --paragraph: Raleway;--h3-mob: "Cormorant Garamond";
   --h4: "Cormorant Garamond";
   --font-times-new-roman: "Times New Roman";
 
@@ -38,7 +38,13 @@ body {
   --font-size-25xl-2: 44.2px;
   --font-size-2xs: 11px;
   --button-size: 18px;
-  --font-size-34xl-5: 53.5px;
+  --font-size-34xl-5: 53.5px;--paragraph-mob-size: 13px;
+  --h3-mob-size: 18px;
+  --h2-mob-size: 24px;
+  --h3-mob1-size: 16px;
+  --font-size-4xs: 9px;
+  --font-size-smi-5: 12.5px;
+  --font-size-4xl: 23px;
   
 
   /* Colors */
@@ -52,16 +58,18 @@ body {
 
   /* Gaps */
   --gap-smi-1: 12.1px; 
-  --gap-3xs-1: 9.1px;--gap-3xs-5: 9.5px;
+  --gap-3xs-1: 9.1px;--gap-3xs-5: 9.5px;--gap-mini: 15px;
 
   /* Paddings */
   --padding-smi: 13px;
   --padding-7xl: 26px; 
   --padding-3xs-7: 9.7px;
   --padding-lgi-5: 19.5px;
-  --padding-3xs-8: 9.8px;
+  --padding-3xs-8: 9.8px; --padding-3xs: 10px;
+  --padding-xl: 20px;
 
   /* border radiuses */
-  --br-65xl-8: 84.8px;
+  --br-65xl-8: 84.8px; --br-mini: 15px;
+  --br-50xl: 69px;
 }
 
