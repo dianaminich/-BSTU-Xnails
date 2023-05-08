@@ -1607,7 +1607,7 @@
     top: 0;
     left: 0.75px;
     display: inline-block;
-    width: 156.26px;
+    width: 196.26px;
     height: 64.74px;
   }
   .div12,
@@ -2565,7 +2565,7 @@
   }
   .div59 {
     top: 20.22px;
-    left: 571.79px;
+    left: 551.79px;
     font-size: 22.69px;
     font-family: var(--font-cormorant-garamond);
     display: inline-block;
@@ -2605,7 +2605,7 @@
     padding: 0;
     background-color: transparent;
     top: 89.57px;
-    left: 571.79px;
+    left: 551.79px;
     width: 170.21px;
     height: 31.52px;
   }
@@ -2664,22 +2664,22 @@
   .div61,
   .email-elb00315gbstuby {
     position: absolute;
-    top: 92px;
+    top: 3506px;
     left: 5px;
     font-size: 15.07px;
     line-height: 150%;
     font-weight: 300;
   }
   .email-elb00315gbstuby {
-    top: 114px;
+    top: 3524px;
     left: 6px;
     font-size: 12.65px;
   }
-  .a {
+  .a, .a1 {
     text-decoration: none;
-    top: 74px;
-    left: 131px;
-    width: 16.34px;
+    top: 3477px;
+    left: 147px;
+    width: 18.86px;
     height: 17.97px;
     background-image: url(./assets/png/фигма.PNG);
     background-size: cover;
@@ -2687,16 +2687,10 @@
     background-position: top;
   }
   
-  .a,.a1 {
-    text-decoration: none; position: absolute;
-    top: 74px;
-    left: 159px;
+  .a1 {
+    left: 168px;
     width: 18.86px;
-    height: 17.97px;
     background-image: url(./assets/png/-12@3x.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
   }
   .div51 {
     top: 3403px;
