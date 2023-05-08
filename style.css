@@ -1217,7 +1217,7 @@
     width: 217.67px;
   }
   .div59 {
-    top: 25.86px;
+    top: 5.22px;
     left: 731.19px;
     font-size: 29.02px;
     font-family: var(--h4);
@@ -2766,8 +2766,8 @@
       align-items: center;
       justify-content: space-between;
     }
-    .div2,
-    .div3,
+    .div9,
+    .div10,
     .xnails- {
       position: absolute;
       left: 15px;
@@ -2780,17 +2780,17 @@
       display: inline-block;
       width: 172px;
     }
-    .div2,
-    .div3 {
+    .div9,
+    .div10 {
       top: 137px;
       font-weight: 300;
     }
-    .div3 {
+    .div10 {
       top: 164px;
       display: inline-block;
       width: 265.32px;
     }
-    .main-foto-1-2 {
+    .main-foto-1 {
       position: absolute;
       top: 190px;
       left: 168px;
@@ -2798,7 +2798,7 @@
       height: 141px;
       object-fit: cover;
     }
-    .div4 {
+    .div7 {
       position: relative;
       font-size: var(--h3-mob1-size);
       text-transform: uppercase;
@@ -2806,13 +2806,13 @@
       color: var(--color-black);
       text-align: left;
     }
-    .button,
-    .button1 {
+    .button1,
+    .button2 {
       cursor: pointer;
       background-color: transparent;
       position: absolute;
     }
-    .button {
+    .button1 {
       border: 1px solid var(--color-black);
       padding: var(--padding-3xs) var(--padding-xl);
       top: 361px;
@@ -2825,11 +2825,11 @@
       align-items: center;
       justify-content: center;
     }
-    .button:hover,
+    .button1:hover,
     .wrapper:hover {
       background-color: var(--color-mediumpurple);
     }
-    .button1 {
+    .button2 {
       border: 0;
       padding: 0;
       top: 419px;
@@ -2853,11 +2853,11 @@
       color: var(--color-gray);
     }
     .div1,
-    .div5,
-    .div6 {
+    .div15,
+    .div16 {
       position: absolute;
     }
-    .div5 {
+    .div15 {
       top: 42.15px;
       left: 0;
       line-height: 130%;
@@ -2865,7 +2865,7 @@
       display: inline-block;
       width: 132.2px;
     }
-    .div6 {
+    .div16 {
       top: 0;
       left: 60.83px;
       font-size: 22.99px;
@@ -2881,16 +2881,16 @@
       font-size: 12.45px;
       font-family: var(--paragraph-mob);
     }
-    .div8 {
+    .div13 {
       position: absolute;
       top: 0;
       left: 54.6px;
     }
-    .div7,
-    .div9 {
+    .div12,
+    .div14 {
       width: 175.31px;
     }
-    .div9 {
+    .div14 {
       position: absolute;
       top: 42.15px;
       left: 0;
@@ -2901,12 +2901,12 @@
       text-align: center;
       display: inline-block;
     }
-    .div7 {
+    .div12 {
       position: relative;
       height: 74.15px;
       flex-shrink: 0;
     }
-    .div11 {
+    .div18 {
       position: absolute;
       top: 0;
       left: 55.56px;
@@ -2914,7 +2914,7 @@
     .p {
       margin: 0;
     }
-    .div12 {
+    .div19 {
       position: absolute;
       top: 42.15px;
       left: 0;
@@ -2924,13 +2924,13 @@
       font-family: var(--paragraph-mob);
       text-align: center;
     }
-    .div10 {
+    .div17 {
       position: relative;
       width: 129px;
       height: 74.15px;
       flex-shrink: 0;
     }
-    .advantages1 {
+    .group {
       position: absolute;
       top: 16px;
       left: calc(50% - 17px);
@@ -2940,9 +2940,9 @@
       justify-content: flex-start;
       gap: 14.37px;
     }
-    .n-2-icon,
-    .n-2-icon1,
-    .n-2-icon2 {
+    .n-1-icon1,
+    .n-1-icon2,
+    .n-1-icon {
       position: absolute;
       top: 108px;
       left: 56px;
@@ -2950,15 +2950,15 @@
       height: 75px;
       object-fit: cover;
     }
-    .n-2-icon1,
-    .n-2-icon2 {
+    .n-1-icon2,
+    .n-1-icon {
       top: 195px;
     }
-    .n-2-icon2 {
+    .n-1-icon {
       top: 16px;
       left: 55px;
     }
-    .advantages {
+    .desktop-3{
       position: absolute;
       top: 459px;
       left: 0;
@@ -2984,12 +2984,9 @@
       width: 183px;
       height: 260px;
     }
-    .button-mob,
-    .wrapper {
+    .button3 {
       display: flex;
       flex-direction: row;
-    }
-    .wrapper {
       cursor: pointer;
       border: 1px solid var(--color-black);
       padding: var(--padding-3xs) var(--padding-xl);
@@ -3000,58 +2997,56 @@
       flex-shrink: 0;
       align-items: center;
       justify-content: center;
-    }
-    .button-mob {
       position: absolute;
       top: 395px;
       left: 62px;
       align-items: flex-start;
       justify-content: flex-start;
     }
-    .div14 {
+    .div28 {
       position: absolute;
       top: 25px;
       left: 97px;
       font-size: var(--h2-mob-size);
     }
-    .div15,
-    .div16 {
+    .div32,
+    .xnails {
       position: absolute;
       top: 0;
       left: 0;
     }
-    .div15 {
+    .div32{
       top: 71px;
       left: 5px;
       width: 66px;
       height: 20px;
       font-size: 16.76px;
     }
-    .div17 {
+    .xnails {
       left: 0;
       line-height: 150%;
       font-weight: 300;
     }
-    .byn,
-    .div17,
-    .line {
+    .byn2,
+    .div5,
+    .line5 {
       position: absolute;
       top: 0;
     }
-    .byn {
+    .byn2 {
       left: 255.5px;
       line-height: 150%;
       font-weight: 300;
       display: inline-block;
       width: 47px;
     }
-    .line {
+    .line5 {
       width: calc(100% - 17.85px);
       right: 17.35px;
       left: 0.5px;
       height: 11.99px;
     }
-    .div18 {
+    .div30 {
       width: calc(100% - 115.18px);
       top: 0.49px;
       left: 0;
@@ -3060,12 +3055,12 @@
       display: inline-block;
       height: 12.03px;
     }
-    .byn1,
-    .div18,
-    .line1 {
+    .byn3,
+    .div30,
+    .line6 {
       position: absolute;
     }
-    .byn1 {
+    .byn3{
       width: calc(100% - 255.5px);
       top: 0;
       left: 255.5px;
@@ -3074,15 +3069,15 @@
       display: inline-block;
       height: 12px;
     }
-    .line1 {
+    .line6 {
       width: calc(100% - 2.5px);
       top: 16px;
       right: 2px;
       left: 0.5px;
       height: 12.51px;
     }
-    .byn2,
-    .div19 {
+    .byn4,
+    .div31 {
       position: absolute;
       width: calc(100% - 130.65px);
       top: 0;
@@ -3092,25 +3087,25 @@
       display: inline-block;
       height: 12.03px;
     }
-    .byn2 {
+    .byn4 {
       width: calc(100% - 256px);
       top: 0.03px;
       left: 256px;
       height: 12px;
     }
-    .line2 {
+    .line7 {
       width: 100%;
       top: 32.97px;
       right: 0;
       left: 0;
       height: 12.03px;
     }
-    .div20,
-    .line2,
-    .prices {
+    .div27,
+    .line4,
+    .prices2 {
       position: absolute;
     }
-    .prices {
+    .prices2 {
       width: calc(100% - 16px);
       top: 102px;
       right: 7px;
@@ -3118,13 +3113,13 @@
       height: 45px;
       font-family: var(--paragraph-mob);
     }
-    .div20 {
+    .div27 {
       top: 164px;
       left: 5px;
       font-size: 16.59px;
     }
     .byn50-byn,
-    .line3 {
+    .line2 {
       position: absolute;
       top: 0;
     }
@@ -3135,14 +3130,14 @@
       display: inline-block;
       width: 84px;
     }
-    .line3 {
+    .line2 {
       width: calc(100% - 22.85px);
       right: 22.35px;
       left: 0.5px;
       height: 11.99px;
     }
     .byn60-byn,
-    .div22 {
+    .div25 {
       position: absolute;
       width: calc(100% - 117.18px);
       top: 0.49px;
@@ -3158,7 +3153,7 @@
       left: 217.5px;
       height: 12px;
     }
-    .line4 {
+    .line3 {
       position: absolute;
       width: calc(100% - 5.5px);
       top: 16px;
@@ -3167,12 +3162,12 @@
       height: 12.51px;
     }
     .byn70-byn,
-    .div23 {
+    .div26 {
       line-height: 150%;
       font-weight: 300;
       display: inline-block;
     }
-    .div23 {
+    .div26 {
       position: absolute;
       width: calc(100% - 101.42px);
       top: 0;
@@ -3186,7 +3181,7 @@
       height: 12px;
     }
     .byn70-byn,
-    .div24,
+    .div23,
     .prices1 {
       position: absolute;
     }
@@ -3198,61 +3193,61 @@
       height: 45px;
       font-family: var(--paragraph-mob);
     }
-    .div24 {
+    .div23 {
       top: 258px;
       left: 5px;
       font-size: 17.52px;
     }
-    .byn3,
-    .line6 {
+    .byn,
+    .line {
       position: absolute;
       top: 0;
     }
-    .byn3 {
+    .byn {
       left: 261px;
       line-height: 150%;
       font-weight: 300;
       display: inline-block;
       width: 43px;
     }
-    .line6 {
+    .line {
       width: calc(100% - 15.07px);
       right: 15.07px;
       left: 0;
       height: 18.53px;
     }
-    .byn4,
-    .div26 {
+    .byn1,
+    .div22 {
       line-height: 150%;
       font-weight: 300;
       display: inline-block;
     }
-    .div26 {
+    .div22 {
       position: absolute;
       width: calc(100% - 57.79px);
       top: 0.47px;
       left: 0;
       height: 18.53px;
     }
-    .byn4 {
+    .byn1 {
       width: calc(100% - 261px);
       top: 0;
       left: 261px;
       height: 19px;
     }
-    .byn4,
-    .line7,
-    .prices2 {
+    .byn1,
+    .line1,
+    .prices {
       position: absolute;
     }
-    .line7 {
+    .line1 {
       width: 100%;
       top: 25px;
       right: 0;
       left: 0;
       height: 19px;
     }
-    .prices2 {
+    .prices {
       width: calc(100% - 17px);
       top: 289px;
       right: 10px;
@@ -3260,8 +3255,6 @@
       height: 44px;
       font-size: 9.04px;
       font-family: var(--paragraph-mob);
-    }
-    .services {
       position: absolute;
       top: 773px;
       left: 0;
@@ -3279,19 +3272,19 @@
       width: 51px;
       height: 8.39px;
     }
-    .foto3,
-    .foto4-icon {
+    .n-1,
+    .n-1-icon4 {
       position: absolute;
       top: 268px;
       width: 138px;
       height: 184px;
     }
-    .foto4-icon {
+    .n-1-icon4{
       left: 168px;
       border-radius: var(--br-50xl);
       object-fit: cover;
     }
-    .foto3 {
+    .n-1 {
       left: 15px;
       background-image: url(./assets/document_5447588590982802457.mp4);
       background-size: cover;
@@ -3305,8 +3298,8 @@
       display: inline-block;
       width: 120px;
     }
-    .foto-2-icon,
-    .foto1-icon {
+    .n-1-icon3,
+    .n-1-icon5{
       position: absolute;
       top: 69px;
       left: 168px;
@@ -3315,21 +3308,21 @@
       height: 91px;
       object-fit: cover;
     }
-    .foto1-icon {
+    .n-1-icon5 {
       left: 15px;
       border-radius: var(--br-50xl);
       width: 138px;
       height: 184px;
     }
-    .div27,
-    .portfolio {
+    .div37,
+    .div36 {
       position: absolute;
       top: 25px;
       left: 104px;
       font-size: var(--h2-mob-size);
       text-align: left;
     }
-    .portfolio {
+    .div36 {
       top: 1236px;
       left: 0;
       background-color: var(--color-lavender);
@@ -3340,7 +3333,7 @@
       font-size: var(--h3-mob1-size);
       font-family: var(--h3-mob);
     }
-    .sertificate-child {
+    .ellipse-icon {
       position: absolute;
       top: 78px;
       left: 21px;
@@ -3354,7 +3347,7 @@
       width: 180px;
       height: 260px;
     }
-    .button2 {
+    .button5 {
       cursor: pointer;
       border: 0;
       padding: 0;
@@ -3370,7 +3363,7 @@
       text-align: left;
       display: inline-block;
     }
-    .button-mob1 {
+    .button-child {
       position: absolute;
       top: 430px;
       left: 63px;
@@ -3379,7 +3372,7 @@
       align-items: flex-start;
       justify-content: flex-start;
     }
-    .div29 {
+    .div41 {
       top: 264px;
       left: 15px;
       line-height: 130%;
@@ -3388,26 +3381,26 @@
       display: inline-block;
       width: 290px;
     }
-    .div29,
-    .div30,
-    .icon {
+    .div41,
+    .div39,
+    .foto-1-icon {
       position: absolute;
     }
-    .div30 {
+    .div39 {
       top: 220px;
       left: 40px;
       font-size: var(--h2-mob-size);
       font-family: var(--h3-mob);
       text-align: left;
     }
-    .icon {
+    .foto-1-icon {
       top: 22px;
       left: 90px;
       width: 138px;
       height: 179px;
       object-fit: cover;
     }
-    .sertificate {
+    .div38{
       position: absolute;
       top: 1737px;
       left: 0;
@@ -3417,7 +3410,7 @@
       overflow: hidden;
       text-align: center;
     }
-    .foto-icon {
+    .n-1-icon6 {
       position: absolute;
       top: 25px;
       left: 207px;
@@ -3433,23 +3426,20 @@
       width: 290.34px;
       height: 18.66px;
     }
-    .p9 {
-      margin: 0;
-      color: #ababab;
-    }
-    .div31,
-    .div32 {
+
+    .div46,
+    .div4r4 {
       position: absolute;
       line-height: 130%;
       font-weight: 300;
     }
-    .div31 {
+    .div46 {
       top: 219px;
       left: 40px;
       display: inline-block;
       width: 222px;
     }
-    .div32 {
+    .div44 {
       top: 189px;
       left: 134px;
     }
@@ -3460,12 +3450,12 @@
       width: 75px;
       height: 12.62px;
     }
-    .div33,
+    .div47,
     .vector-icon {
       position: absolute;
       top: 164px;
     }
-    .div33 {
+    .div47 {
       left: 40px;
       line-height: 150%;
       font-weight: 500;
@@ -3478,7 +3468,7 @@
       overflow: hidden;
       height: 10px;
     }
-    .button3 {
+    .button6 {
       cursor: pointer;
       border: 0;
       padding: 0;
@@ -3493,28 +3483,28 @@
       text-align: left;
       display: inline-block;
     }
-    .button3,
-    .i {
+    .button6,
+    .i3 {
       font-weight: 300;
     }
-    .div34,
-    .i1 {
+    .div45,
+    .i {
       font-family: var(--h3-mob);
     }
-    .div34 {
+    .div45 {
       position: absolute;
       top: 80px;
       left: 40px;
       font-size: var(--h2-mob-size);
     }
-    .i1 {
+    .i {
       font-weight: 300;
     }
-    .div35,
-    .reviews {
+    .div43,
+    .div42 {
       position: absolute;
     }
-    .div35 {
+    .div43 {
       top: 26px;
       left: 15px;
       font-size: var(--h2-mob-size);
@@ -3523,14 +3513,14 @@
       height: 54px;
       font-family: var(--h3-mob);
     }
-    .reviews {
+    .div42 {
       top: 2265px;
       left: 1px;
       background-color: var(--color-lavender);
       width: 320px;
       height: 372px;
     }
-    .foto-icon1 {
+    .icon {
       position: absolute;
       top: 393px;
       left: 15px;
@@ -3538,7 +3528,7 @@
       height: 267px;
       object-fit: cover;
     }
-    .button-mob2 {
+    .button7 {
       position: absolute;
       top: 320px;
       left: 62px;
@@ -3547,7 +3537,7 @@
       align-items: flex-start;
       justify-content: flex-start;
     }
-    .studios-child {
+    .child2 {
       position: absolute;
       top: 125px;
       left: 0;
@@ -3580,14 +3570,14 @@
       flex-shrink: 0;
     }
     .xnails-center,
-    .xnails2 {
+    .xnails1 {
       position: relative;
     }
-    .div37,
-    .menu1 {
+    .div49,
+    .div48 {
       position: absolute;
     }
-    .menu1 {
+    .div48 {
       top: 69px;
       left: 15px;
       width: 290px;
@@ -3597,17 +3587,17 @@
       justify-content: space-between;
       font-size: var(--h3-mob1-size);
     }
-    .div37 {
+    .div49 {
       top: 25px;
       left: 96px;
       font-size: var(--h2-mob-size);
     }
     .group-icon,
-    .studios {
+    .div48 {
       position: absolute;
       left: 0;
     }
-    .studios {
+    .div48 {
       top: 2637px;
       background-color: var(--color-lavender);
       width: 320px;
@@ -3694,13 +3684,13 @@
       width: 138px;
       height: 23px;
     }
-    .div38 {
+    .div2 {
       position: relative;
       line-height: 130%;
       font-weight: 300;
     }
-    .group,
-    .parent {
+    .frame-div,
+    .parent1 {
       position: absolute;
       top: 0;
       left: 0;
@@ -3710,24 +3700,24 @@
       justify-content: center;
       gap: var(--gap-mini);
     }
-    .group {
+    .frame-div {
       left: 123px;
     }
-    .frame-parent {
+    .frame-div {
       position: absolute;
       top: 110px;
       left: 72px;
       width: 162px;
       height: 81px;
     }
-    .div43 {
+    .div59 {
       position: absolute;
       top: 218px;
       left: 34px;
       font-size: var(--h3-mob-size);
       font-family: var(--h3-mob);
     }
-    .group-child {
+    .input-child {
       position: absolute;
       top: 0;
       left: 0;
@@ -3749,14 +3739,14 @@
       display: inline-block;
       width: 141.91px;
     }
-    .group-item {
+    .input-item {
       position: absolute;
       top: 17.32px;
       left: 219.38px;
       width: 48.33px;
       height: 7.36px;
     }
-    .rectangle-parent {
+    .input {
       cursor: pointer;
       border: 0;
       padding: 0;
@@ -3774,10 +3764,10 @@
       line-height: 130%;
       font-weight: 300;
     }
-    .span {
+    .div58 {
       text-decoration: underline;
     }
-    .div44 {
+    .div60 {
       position: absolute;
       top: 5px;
       left: 34px;
@@ -3818,7 +3808,7 @@
       height: 41px;
       font-size: 12px;
     }
-    .g14-icon {
+    .logo-icon1{
       position: absolute;
       width: 43.75%;
       top: 25px;
@@ -3828,7 +3818,7 @@
       overflow: hidden;
       height: 39px;
     }
-    .div45,
+    .div61,
     .email-elb00315gbstuby {
       position: absolute;
       top: 201px;
@@ -3850,7 +3840,7 @@
       left: 226px;
       width: 20px;
       height: 22px;
-      background-image: url(./assets/png/карты.PNG);
+      background-image: url(./assets/png/фигма.PNG);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: top;
@@ -3858,14 +3848,14 @@
     .a1 {
       left: 264px;
       width: 23.09px;
-      background-image: url(./assets/png/фигма.PNG);
+      background-image: url(./assets/png/-12@3x.png);
     }
     .div,
-    .footer {
+    .div51 {
       background-color: var(--color-lavender);
       overflow: hidden;
     }
-    .footer {
+    .div51 {
       position: absolute;
       top: 3322px;
       left: 0;
