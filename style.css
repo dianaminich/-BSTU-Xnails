@@ -2819,7 +2819,7 @@
     font-size: 13.47px;
     text-transform: uppercase;
     font-family: var(--button);
-    text-align: center; left: 12px;
+    text-align: center; left: 31px;
     }
     .button1,
     .button2 {
@@ -3564,8 +3564,8 @@
     }
     .xnails-center-child {
       position: absolute;
-      top: -43px;
-      left: -30px;
+      top: 19px;
+      left: -15px;
       border-top: 2px solid #9da57c;
       box-sizing: border-box;
       width: 97px;
@@ -3577,7 +3577,7 @@
     }
     .xnails1 {
       position: relative;width: 95px;
-      height: 24px;top: 45px;left: 8px;
+      height: 24px;top: 45px;left: 167px;
     }
     .div49 {
       position: absolute;
