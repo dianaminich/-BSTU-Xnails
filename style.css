@@ -2946,7 +2946,7 @@
     .group {
       position: absolute;
       top: 16px;
-      left: calc(50% - 17px);
+      left: calc(50% - 451px);
       display: flex;
       flex-direction: column;
       align-items: center;
