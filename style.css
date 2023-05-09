@@ -2893,7 +2893,7 @@
       height: 74.15px;
       text-align: center;
       font-size: 12.45px;
-      font-family: var(--paragraph-mob);
+      font-family: var(--paragraph-mob); top: -50px;left: 219px;
     }
     .div13 {
       position: absolute;
@@ -2917,12 +2917,13 @@
     }
     .div12 {
       position: relative;
-      height: 74.15px;
+      height: 74.15px;top: 88px;
+      left: 213.12px;
     }
     .div18 {
       position: absolute;
       top: 0;
-      left: 55.56px;
+      left: 81.56px;
     }
     .p {
       margin: 0;
@@ -2940,7 +2941,7 @@
     .div17 {
       position: relative;
       width: 129px;
-      height: 74.15px;
+      height: 74.15px; top: 89px;left: 191.74px;
     }
     .group {
       position: absolute;
@@ -3916,5 +3917,15 @@ height: 28.6px;
   width: 316px;
   height: 75px;
   font-size: var(--font-size-2xs-2);
+}.parent {
+  height: 25.69%;
+  top: 53.02%;
+  bottom: 21.29%;
+  left: calc(50% - 30.039999999999992px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 33.68px;
 }
 }
