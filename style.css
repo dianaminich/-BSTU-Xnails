@@ -86,7 +86,34 @@
     width: 1024px;
     height: 104px;
     overflow: hidden;
+  } 
+
+  .header__burger{
+   display: none;
+    width: 40px;
+    height: 28px;
+  
   }
+
+  .burger__line{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color:  #000;
+    position: absolute;
+    left: 0;
+  }
+
+  .burger__line_first{
+    top: 0;
+   }
+   .burger__line_second{
+    top: 50%;
+    transform: translateY(-50%);
+   }
+   .burger__line_third{
+    bottom: 0;
+   }
   .child,
   .main-foto-1 {
     position: absolute;
@@ -1363,6 +1390,21 @@
     color: var(--color-black);
     font-family: var(--paragraph);
   }
+  .button8{
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: var(--paragraph-size);
+  font-family: var(--paragraph);
+  color: var(--color-gray);
+  text-align: left;
+  display: inline-block;
+  position: relative;
+  line-height: 150%;
+  font-weight: 300;
+}
+
 @media screen and (max-width: 768px) {
   .logo-icon {
     position: absolute;
@@ -1377,6 +1419,20 @@
     max-height: 100%;
     object-fit: cover;
   }
+  .button8{
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: 13.47px;
+  font-family: var(--button);
+  color: var(--color-gray);
+  text-align: left;
+  display: inline-block;
+  position: relative;
+  line-height: 150%;
+  font-weight: 300;
+}
   .div2,
   .div5 {
     position: relative;
@@ -3933,5 +3989,62 @@ height: 28.6px;
   width: 273.22px;
   height: 248.51px;
   mix-blend-mode: normal;
+}
+}
+
+
+@media screen and (max-width:767px){
+  .header__burger{
+    display: block;
+  }
+  .header{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #a07acc;
+    z-index: 10;
+    padding: 75px;
+    transform: translateX(100%);
+    transition: .2s all linear;
+  }
+  .header_active{
+    transform: translateX(0);
+  }
+  .parent{
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .parent:last-child{
+    margin-bottom: 0;
+  }
+  .button8 {
+    font-size: 42px;
+    line-height: 48px;
+  }
+  .header-close{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 11;
+
+  }
+  .header-close-line {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color:#000;
+    position: absolute;
+    top: 50%;
+  }
+ .header-close-line:first-child{
+    transform: translateY(-50%) rotate(45deg);
+ }
+ .header-close-line:last-child{
+  transform: translateY(-50%) rotate(-45deg);
 }
 }
