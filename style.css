@@ -3927,5 +3927,11 @@ height: 28.6px;
   align-items: center;
   justify-content: flex-start;
   gap: 33.68px;
+}.item {
+  top: 74.11px;
+  left: -105px;
+  width: 273.22px;
+  height: 248.51px;
+  mix-blend-mode: normal;
 }
 }
