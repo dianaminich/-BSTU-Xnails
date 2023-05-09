@@ -43,11 +43,7 @@
     justify-content: flex-start;
     gap: 45px;
   }
-  .div6 {
-    top: 51.92%;
-    left: 62.7%;
-    line-height: 150%;
-  }
+  
   .div7 {
     position: relative;
     font-size: var(--paragraph-size);
