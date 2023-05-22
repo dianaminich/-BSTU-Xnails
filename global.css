@@ -7,7 +7,8 @@ body {
   /* fonts */
   --paragraph: Raleway;--h3-mob: "Cormorant Garamond";
   --h4: "Cormorant Garamond";
-  --font-times-new-roman: "Times New Roman";
+  --font-times-new-roman: "Times New Roman";--font-comfortaa: Comfortaa;
+  --font-dejavu-sans: "DejaVu Sans";
 
   /* font sizes */
   --paragraph-size: 18px;
@@ -44,7 +45,24 @@ body {
   --h3-mob1-size: 16px;
   --font-size-4xs: 9px;
   --font-size-smi-5: 12.5px;
+  --font-size-4xl: 23px; --font-size-6xs: 7px;
+  --font-size-4xs: 9px;
+  --font-size-xxs: 9.5px;
+  --font-size-xs: 12px;
+  --font-size-smi: 13px;
+  --font-size-sm: 14px;
+  --font-size-mini: 15px;
+  --font-size-base: 16px;
+  --font-size-basee: 17px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
   --font-size-4xl: 23px;
+  --font-size-5xl: 24px;
+  --font-size-6xl: 25px;
+  --font-size-8xl: 27px;
+  --font-size-9xl: 28px;
+  --font-size-big: 30px;
+  --font-size-21xl: 40px;
   
 
   /* Colors */
@@ -54,7 +72,12 @@ body {
   --color-floralwhite: #fffaf3;
   --color-mediumpurple-100: #a07acc;
   --color-darkseagreen: #9da57c;
-  --color-gray: #181818;
+  --color-gray: #181818; --color-white: #efdffa;
+  --color-steelblue-100: #9d76af;
+  --color-lavender-100: #f2c7ffab;
+  --color-black: #000;
+  --color-darkslateblue: #5a2c75;
+  --color-gray-100: rgba(0, 0, 0, 0.5);
 
   /* Gaps */
   --gap-smi-1: 12.1px; 
