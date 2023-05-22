@@ -130,7 +130,7 @@
     text-align: left;
     font-size: var(--font-size-lg);
     color: var(--color-gray-100);
-    font-family: var(--font-dejavu-sans);
+    font-family: var(--font-times-new-roman);
 }
 .div3,
 .footer,
@@ -142,7 +142,7 @@
   left: calc(50% - 70px);
   font-size: var(--font-size-xl);
   line-height: 40px;
-  font-family: var(--font-dejavu-sans);
+  font-family: var(--font-times-new-roman);
   color: var(--color-black);
   text-align: center;
   display: inline-block;
@@ -835,7 +835,7 @@
   height: 525px;
   overflow: hidden;
   font-size: var(--font-size-xl);
-  font-family: var(--font-dejavu-sans);
+  font-family: var(--font-times-new-roman);
 }
 .grey-fluffy-domestic-cat-with-icon {
   position: absolute;
