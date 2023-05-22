@@ -2455,7 +2455,7 @@ height: 810px;
     }
     .b4 {
       width: 100%;
-      top: 25px;
+      top: 5px;
       left: 0;
       font-size: var(--font-size-xl);
       line-height: 50px;
@@ -2476,7 +2476,7 @@ height: 810px;
       padding: 0;
       background-color: var(--color-steelblue-100);
       width: 28.2%;
-      top: 21px;
+      top: 55px;
       right: 2.92%;
       left: 68.88%;
       border-radius: var(--br-5xs);
